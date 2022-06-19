@@ -1,0 +1,28 @@
+header {
+    margin-bottom: 1px;
+}
+
+input,
+button {
+    padding: 7px;
+    border-radius: 5px;
+    margin: 3px;
+}
+
+footer,
+header {
+	background-color: black;
+}
+
+footer img {
+	height: 35px;
+	transition: .2s;
+}
+
+footer img:hover {
+	height: 45px;
+}
+
+.direitos {
+    background-color: #FF7300;
+}

@@ -1,0 +1,99 @@
+header nav {
+	background-color: black;
+}
+
+.banner {
+	max-width: 1917px;
+	margin-top: 94px;
+}
+
+.banner img {
+	transition: .2s;
+}
+
+.banner img:hover {
+	transform: scale(1.02);
+}
+
+nav a {
+    position: relative;
+}
+
+nav a::after{
+	content: "";
+	width: 0%;
+	height: 2px;
+	background-color: #FF7300;
+	position: absolute;
+	bottom: 3;
+	left: 0;
+	transition: .3s ease-in-out;
+}
+
+nav a:hover::after{
+	width: 100%;
+}
+
+.intro {
+	color: #212529;
+	background-color: #FF7300;
+}
+
+.intro h5,
+.shark h4 {
+	width: 40%;
+}
+
+.dados,
+.direitos {
+	background-color: #FF7300;
+}
+
+.atletas,
+.quadras,
+.cidades,
+.estados,
+.app {
+	margin: 0 auto;
+}
+
+.dados-img {
+	background-color: #0E0E0E;
+}
+
+.linha-vertical {
+    height: 200px;
+    border-right: 1px solid #fff;
+}
+
+.como-funciona img {
+	width: 100%;
+}
+
+.app-text {
+	height: 80%;
+	width: 20%;
+	background-color: #DDDDDD;
+}
+
+.melhores-momentos {
+	background-color: #212529;
+}
+
+iframe {
+	border: 3px solid #FF7300;
+	border-radius: 5px;
+}
+
+footer {
+	background-color: black;
+}
+
+footer img {
+	height: 35px;
+	transition: .2s;
+}
+
+footer img:hover {
+	height: 45px;
+}

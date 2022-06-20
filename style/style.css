@@ -4,7 +4,7 @@ header nav {
 
 .banner {
 	max-width: 1917px;
-	margin-top: 94px;
+	margin-top: 104px;
 }
 
 .banner img {
@@ -15,11 +15,11 @@ header nav {
 	transform: scale(1.02);
 }
 
-nav a {
+nav ul a {
     position: relative;
 }
 
-nav a::after{
+nav ul a::after{
 	content: "";
 	width: 0%;
 	height: 2px;
@@ -96,4 +96,46 @@ footer img {
 
 footer img:hover {
 	height: 45px;
+}
+
+@media (max-width: 1366px) {
+	.banner {
+		max-width: 1363px;
+		margin-top: 94px;
+	}
+
+	.videos iframe {
+		width: 420px; 
+		height: 236.25px;
+	}
+}
+
+@media (max-width: 415px) {
+	header {
+		width: 100%;
+	}
+	
+	.banner {
+		width: 103%;
+		margin-top: 70px;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.banner img {
+		width: 100%;
+		justify-content: center;
+		align-items: center;
+		margin: 0 auto;
+	}
+
+	.intro h5,
+	.shark h4 {
+		width: 90%;
+	}
+
+	.app-text {
+		width: 80%;
+		background-color: #DDDDDD;
+	}
 }
